@@ -23,6 +23,7 @@ int main()
 
 	//второе задание
 	std::cout << "\n=============2 задание===========\n";
+
 	std::cout << std::boolalpha << RANGE(3, 4) << std::endl;
 #undef RANGE
 	//третье задание
@@ -31,7 +32,7 @@ int main()
 
 	std::cout << "\n=============4 задание===========\n";
 	//4 задание
-	Employees *persone = new Employees{"Vasiliy","Orlov",32,"security"};
+	Employees *persone = new Employees{"Vasiliy","Sidorov",32,"security"};
 	std::cout << "Размер сруктуры Employees = " << Employees::GetSize(persone) << std::endl;
 	persone->Print();
 	if (Employees::SaveEmployees(persone))
